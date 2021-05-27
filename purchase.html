@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<title>Purchase A Product!</title>
+<link rel="stylesheet" href="./style.css">
+<body>
+    <h1 id="purch">Purchase A Product</h1>
+    <form action="https://formsubmit.co/samyking2011@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="Name?">
+        <input type="email" name="email" required placeholder="Email?">
+        <input type="text" name="product" id="prodbuy" placeholder="What would you like to buy?" required>
+        <input type="text" name="quantity" id="quant" placeholder="Quantity?">
+        <input id="disc" placeholder="Enter Discount Codes Here(Optional)">
+        <button id="discapply" type="submit" onclick="greet()">Apply Promo Codes</button>
+        <button type="submit" id="sub">Send</button>
+        </form>
+        <p id="discac"></p>
+
+</body>
+<script src="./script.js"></script>
