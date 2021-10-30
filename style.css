@@ -1,5 +1,13 @@
 html {
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-image: linear-gradient(to right, #a8edea 0%, #fed6e3 100%);
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#discac{
+    color: black;
+}
+
+#sign{
+    background-color: #CF2856;
 }
